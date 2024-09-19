@@ -1,0 +1,17 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UI.uss?fileID=7433441132597879392&amp;guid=fd5adb1bee6f7411d81f940c5b7c4828&amp;type=3#UI" />
+    <engine:VisualElement name="row1" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement name="screen1" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Screen1.renderTexture?fileID=8400000&amp;guid=e2f4f79b155574e3ebde0975167de6ee&amp;type=2#Screen1&quot;);">
+            <engine:Label text="Forward (x4 MSAA)" style="position: absolute; top: 8px; left: 8px;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="screen2" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Screen2.renderTexture?fileID=8400000&amp;guid=bb8904825380d450ea2808febb5d271b&amp;type=2#Screen2&quot;);">
+            <engine:Label text="Deferred" style="position: absolute; top: 8px; left: 8px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="row2" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement name="screen3" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Screen3.renderTexture?fileID=8400000&amp;guid=d512d39258c8846e3a738898d06701d4&amp;type=2#Screen3&quot;);">
+            <engine:Label text="Forward+ (x4 MSAA)" style="position: absolute; top: 8px; left: 8px;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="empty" style="flex-grow: 1;" />
+    </engine:VisualElement>
+</engine:UXML>
