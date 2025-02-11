@@ -1,0 +1,31 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/DynamicRange/UI.uss?fileID=7433441132597879392&amp;guid=91fdf737645b64f81b8383ff64fe5a80&amp;type=3#UI" />
+    <engine:VisualElement name="row" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT1.renderTexture?fileID=8400000&amp;guid=737bd4c09d164485980a0bd896bc3db1&amp;type=2#RT1&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="R8G8B8A8_UNORM" class="mini-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT2.renderTexture?fileID=8400000&amp;guid=999709ace327f41aa95e413fe88f68a5&amp;type=2#RT2&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="R8G8B8A8_SRGB" class="mini-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT3.renderTexture?fileID=8400000&amp;guid=98a6c171d8d39473cb12b57faa017993&amp;type=2#RT3&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="R16G16B16A16_UNORM" class="mini-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT4.renderTexture?fileID=8400000&amp;guid=2064ad51a10bb442dabed881547eb739&amp;type=2#RT4&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="R16G16B16A16_SFLOAT" class="mini-label" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="row" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT5.renderTexture?fileID=8400000&amp;guid=bae447069362240c198f33efc16752c5&amp;type=2#RT5&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="R32G32B32A32_SFLOAT" class="mini-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT6.renderTexture?fileID=8400000&amp;guid=9e4c8e14a917b4eb4876adaa47ffbe00&amp;type=2#RT6&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="A2B10G10R10_UNORM_PACK" class="mini-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT7.renderTexture?fileID=8400000&amp;guid=252a9efc963a54c7aac3de1b72d101a9&amp;type=2#RT7&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="B9G9R9E5_UFLOAT_PACK32" class="mini-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/DynamicRange/RT8.renderTexture?fileID=8400000&amp;guid=7e801c9f5047a42d194ee5d358e54de6&amp;type=2#RT8&quot;); -unity-background-scale-mode: scale-to-fit;">
+            <engine:Label text="B10G11R11_UFLOAT_PACK32" class="mini-label" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

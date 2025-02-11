@@ -1,0 +1,7 @@
+.mini-label {
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
